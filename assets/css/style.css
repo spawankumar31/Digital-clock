@@ -1,0 +1,23 @@
+body {
+    background-color: #333;
+    background-image: url(https://img.freepik.com/free-photo/brown-wooden-textured-flooring-background_53876-129599.jpg?w=740&t=st=1664221269~exp=1664221869~hmac=03dd1504d8438f039359fbd9450349cf66b7f6c314cbdf6de6c695ba60829cda);
+    color: #fff;
+  } 
+  .container {
+    margin-top: 15%;   
+    display: flex;
+    justify-content: center;
+  }
+  .clock2 { 
+    font-size: 2em;
+    background-color: #000;
+    border: 2px solid #140D04;
+    border-radius: 80px;
+    box-shadow: 3px 6px 3px #1119;
+    color: #fff;
+    padding: 2.8em 1em;
+    @media screen AND (min-width: 600px) {
+      font-size: 3em;
+    }
+   
+  }
